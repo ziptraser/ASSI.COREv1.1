@@ -18,6 +18,14 @@ Disallow: /*?act=
 # 3. СТИЛИ НЕ ТРОГАЙТЕ — ОНИ КРАСИВЫЕ
 Allow: /templates/style.css
 
-# 4. МАЯК ДЛЯ ИНДЕКСАЦИИ (ЗАМЕНИ ДОМЕН НА СВОЙ!)
-Sitemap: http://your-domain.com
+# 4. ЦИФРОВАЯ ДИФФЕРЕНЦИАЦИЯ БОТОВ (ЛОВУШКИ ДЛЯ ЛЮБОПЫТНЫХ)
+# Сюда не ходи, там Патрег сердится:
+Disallow: /admin_backup_2026_full.sql
+Disallow: /config_backup.php.bak
+Disallow: /private_keys_do_not_touch/
 
+# Медовая ловушка для тех, кто не умеет читать:
+Sitemap: http://your-domain.com/trap/
+
+# 5. МАЯК ДЛЯ ИНДЕКСАЦИИ (ЗАМЕНИ ДОМЕН НА СВОЙ!)
+# Sitemap: http://your-domain.com
