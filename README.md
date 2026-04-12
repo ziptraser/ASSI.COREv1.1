@@ -56,5 +56,7 @@
 8. ### 🌐 Живой пример (Live Demo)
    Проект работает на: [ZASSYHA.RU](https://zassyha.ru)
 
+9.   License: ASSI.CORE v1.0 Non-Commercial (see LICENSE file) 
+
 (c) 2026 ASSI.CORE | Сделано с нежностью и сталью.
 ======================================================================
